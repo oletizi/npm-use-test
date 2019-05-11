@@ -1,0 +1,27 @@
+{
+  "name": "@oletizi/npm-use-test",
+  "version": "1.0.0",
+  "description": "Test using the @oletizi/npm-test",
+  "main": "index.js",
+  "scripts": {
+    "run": "npx babel-node index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/oletizi/npm-use-test.git"
+  },
+  "author": "Orion Letizi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oletizi/npm-use-test/issues"
+  },
+  "homepage": "https://github.com/oletizi/npm-use-test#readme",
+  "dependencies": {
+    "@oletizi/npm-test": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
