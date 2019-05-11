@@ -1,7 +1,6 @@
 import {localHello} from "../lib/local";
 import {hello} from "@oletizi/npm-test";
 
-
 describe('Test Import', () => {
     describe('local import', () => {
         it('should import local function', () => {
